@@ -1,0 +1,23 @@
+{
+  "name": "sharedpixels",
+  "version": "1.0.0",
+  "description": "Online real time shared pixelart editor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Migarve55/SharedPixels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU 3.0",
+  "homepage": "https://github.com/Migarve55/SharedPixels#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "express": "^4.17.1",
+    "utf-8-validate": "^5.0.5",
+    "ws": "^7.5.3"
+  }
+}
