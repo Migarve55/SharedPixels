@@ -6,10 +6,11 @@ body {
 #board {
     display: grid;
     grid-template-columns: repeat(auto-fill, 10px);
+    width: 1900px;
 }    
 
 .pixel {
     height: 10px;
     width: 10px;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
