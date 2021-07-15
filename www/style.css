@@ -1,0 +1,15 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 10px);
+}    
+
+.pixel {
+    height: 10px;
+    width: 10px;
+    border: 1px solid black;
+}
